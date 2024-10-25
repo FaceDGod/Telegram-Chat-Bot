@@ -14,7 +14,6 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Yo! Type something so I can help you out!')
 
 async def custom_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text('Yo! TThis is a custom command.')
-
+    await update.message.reply_text('Yo! This is a custom command.')
 #Handle Responses
 
